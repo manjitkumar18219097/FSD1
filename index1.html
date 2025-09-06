@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manjit Gupta | Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Segoe UI", Tahoma, sans-serif;
+    }
+    body {
+      background: #f5f5f5;
+      color: #333;
+      line-height: 1.6;
+    }
+    a { text-decoration: none; color: inherit; }
+    header {
+      background: linear-gradient(90deg, #4f46e5, #9333ea);
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 { font-size: 2.5rem; margin-bottom: 10px; }
+    header p { font-size: 1.2rem; }
+    nav {
+      margin-top: 15px;
+    }
+    nav a {
+      margin: 0 15px;
+      font-weight: bold;
+      transition: 0.3s;
+      color: #fff;
+    }
+    nav a:hover { color: #ffe082; }
+    section {
+      padding: 50px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    section h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 2rem;
+      color: #4f46e5;
+    }
+
+    .card {
+      background: #fff;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      margin-bottom: 30px;
+      transition: 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+    .project-title {
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    .contact a {
+      color: #4f46e5;
+      font-weight: bold;
+    }
+
+    footer {
+      background: #222;
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Manjit Kumar Gupta</h1>
+    <p>Web Developer | Programmer | Learner</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>👨 About Me</h2>
+    <div class="card">
+      <p>
+        Hello! I’m <b>Manjit</b>, a passionate developer who loves coding and
+        creating real-world solutions. Skilled in <b>Java, C++, HTML, CSS</b> 
+        and exploring advanced web development and cybersecurity.
+      </p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>💻 Projects</h2>
+    <div class="grid">
+      <div class="card">
+        <p class="project-title">Portfolio Website</p>
+        <p>A responsive personal portfolio made with HTML & CSS.</p>
+      </div>
+      <div class="card">
+        <p class="project-title">E-commerce App</p>
+        <p>Demo web app project using Java & MySQL.</p>
+      </div>
+      <div class="card">
+        <p class="project-title">Cybersecurity Notes</p>
+        <p>Structured notes & Q&A for cybersecurity exams.</p>
+      </div>
+      <div class="card">
+        <p class="project-title">AI Chatbot</p>
+        <p>Prototype chatbot created using Python NLP.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>📩 Contact Me</h2>
+    <div class="card contact">
+      <p>Email: <a href="mailto:manjitkumar7667693313@gmail.com">manjitkumar7667693313@gmail.com</a></p>
+      <p>GitHub: <a href="https://github.com/dashboard" target="_blank">https://github.com/dashboard</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/feed/" target="_blank">https://www.linkedin.com/feed/</a></p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Manjit Gupta | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
