@@ -1,0 +1,81 @@
+<!DOCTYPE html> <!-- Defines the document type as HTML5 -->
+<html lang="en"> <!-- HTML starts, language is English -->
+<head>
+  <meta charset="UTF-8"> <!-- Character encoding (UTF-8) -->
+  <title>Student Marks System</title> <!-- Page title shown in browser tab -->
+
+  <style>
+    /* General body styling */
+    body { 
+     
+      text-align: center; /* Center text */
+      background: #7d2525; /* Light gray background */
+    }
+
+    /* Heading style */
+    h2 {
+      color: #333; /* Dark gray text */
+    }
+
+    /* Table styling */
+    table { 
+      margin: 15px auto; /* Center the table */
+      border-collapse: collapse; /* Merge table borders */
+      width: 60%; /* Table width */
+      background: #fff; /* White background */
+      box-shadow: 0 2px 6px rgba(233, 233, 5, 0.1); /* Small shadow effect */
+    }
+
+    /* Table cells */
+    th, td { 
+      border: 1px solid #333; /* Border around cells */
+      padding: 18px; /* Space inside cells */
+    }
+
+    /* Header cells */
+    th {
+      background: #6cd410; /* Light gray background */
+    }
+
+   
+
+    
+    /* Input fields */
+    input { 
+      padding: 6px; /* Inner space */
+      margin: 5px; /* Space between inputs */
+ 
+    }
+
+  </style>
+</head>
+<body>
+  <!-- Main heading -->
+  <h2>Student Marks System</h2>
+
+  <!-- Table for student names and marks -->
+  <table>
+    <tr><th>Name</th><th>Marks</th></tr> <!-- Header row -->
+    <tr><td>Amit</td><td>85</td></tr> <!-- Student 1 -->
+    <tr><td>Sneha</td><td>92</td></tr> <!-- Student 2 -->
+    <tr><td>Ravi</td><td>78</td></tr> <!-- Student 3 -->
+  </table>
+
+  <!-- Section with action buttons -->
+  <div class="controls">
+    <button>Show Highest</button> <!-- Button to show highest marks -->
+    <button>Show Average</button> <!-- Button to show average marks -->
+    <button>Sort by Marks</button> <!-- Button to sort by marks -->
+    <button>Reset Sample</button> <!-- Button to reset sample list -->
+    <button>Remove Last</button> <!-- Button to remove last student -->
+  </div>
+
+  <!-- Input section for adding new student -->
+  <div class="input-box">
+    <input type="text" placeholder="Enter Name"> <!-- Name input -->
+    <input type="number" placeholder="Enter Marks"> <!-- Marks input -->
+    <button>Add Student</button> <!-- Button to add new student -->
+  </div>
+
+</body>
+</html>

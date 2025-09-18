@@ -1,0 +1,45 @@
+
+    body { 
+      text-align: center;
+      background: #fff4e6;
+      font-family: Arial, sans-serif;
+    }
+
+    h2 {
+      color: #d35400;
+    }
+
+    table { 
+      margin: 15px auto;
+      border-collapse: collapse;
+      width: 60%;
+    }
+
+    th, td { 
+      border: 1px solid #d35400; 
+      padding: 18px;
+    }
+
+    th {
+      background: #f39c12; 
+      color: white;
+    }
+
+    td {
+      background: #fdebd0;
+    }
+
+   
+
+    button {
+      background: #e67e22;
+      color: white;
+      padding: 8px 12px;
+      margin: 4px;
+  
+    
+    }
+
+    button:hover {
+      background: #ca6f1e;
+    }

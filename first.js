@@ -49,3 +49,6 @@ function test() {
   console.log(x); // 10 (because var is function-scoped)
 }
 test();
+mjmkleede 
+klmmm msemeimdj
+  kcmckc k
